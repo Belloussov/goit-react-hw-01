@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  width: 100px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

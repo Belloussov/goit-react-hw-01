@@ -1,0 +1,17 @@
+.table {
+  text-align: center;
+  width: 580px;
+}
+
+.head {
+  color: white;
+  background-color: rgba(6, 0, 0, 0.836);
+}
+
+.item {
+  padding: 7px;
+}
+
+.transactions:nth-child(even) {
+  background-color: darkgrey;
+}
